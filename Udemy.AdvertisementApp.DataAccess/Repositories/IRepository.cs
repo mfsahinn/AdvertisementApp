@@ -15,11 +15,11 @@ namespace Udemy.AdvertisementApp.DataAccess.Repositories
         Task<List<T>> GetAllAsync(Expression<Func<T, bool>> filter);
         Task<List<T>> GetAllAsync<Tkey>(Expression<Func<T, Tkey>> selector, OrderByType orderByType = OrderByType.DESC);
         Task<List<T>> GetAllAsync<Tkey>(Expression<Func<T, bool>> filter, Expression<Func<T, Tkey>> selector, OrderByType orderByType = OrderByType.DESC);
-        Task<T> Find(object id);
+        Task<T> FindAsync(object id);
         Task<T> GetByFilter(Expression<Func<T, bool>> filter, bool asNoTracking = false);
         IQueryable<T> GetQuery();
         void Remove(T entity);
-        Task Create(T entity);
+        Task CreateAsync(T entity);
         void Update(T entity, T unchanged);
     }
 }

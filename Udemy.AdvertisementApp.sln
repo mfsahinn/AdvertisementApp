@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Udemy.AdvertisementApp.Busi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Udemy.AdvertisementApp.UI", "Udemy.Advertisement.App.UI\Udemy.AdvertisementApp.UI.csproj", "{C2165CAC-A1D8-4B77-B554-1E6B2B171E55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udemy.AdvertisementApp.Entities", "Udemy.AdvertisementApp.Entities\Udemy.AdvertisementApp.Entities.csproj", "{F3E4CF52-F0E1-444E-9377-2809B2563EDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Udemy.AdvertisementApp.Entities", "Udemy.AdvertisementApp.Entities\Udemy.AdvertisementApp.Entities.csproj", "{F3E4CF52-F0E1-444E-9377-2809B2563EDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udemy.AdvertisementApp.Dtos", "Udemy.AdvertisementApp.Dtos\Udemy.AdvertisementApp.Dtos.csproj", "{3E94C801-4B81-44C8-8EA3-269C7EDC4464}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F3E4CF52-F0E1-444E-9377-2809B2563EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3E4CF52-F0E1-444E-9377-2809B2563EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3E4CF52-F0E1-444E-9377-2809B2563EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E94C801-4B81-44C8-8EA3-269C7EDC4464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E94C801-4B81-44C8-8EA3-269C7EDC4464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E94C801-4B81-44C8-8EA3-269C7EDC4464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E94C801-4B81-44C8-8EA3-269C7EDC4464}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

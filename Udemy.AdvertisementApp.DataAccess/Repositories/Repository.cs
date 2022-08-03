@@ -42,7 +42,7 @@ namespace Udemy.AdvertisementApp.DataAccess.Repositories
                await _context.Set<T>().AsNoTracking().Where(filter).OrderByDescending(selector).ToListAsync();
         }
 
-        public async Task<T> Find(object id)
+        public async Task<T> FindAsync(object id)
         {
             return await _context.Set<T>().FindAsync(id);
         }
@@ -63,7 +63,7 @@ namespace Udemy.AdvertisementApp.DataAccess.Repositories
             _context.Set<T>().Remove(entity);
         }
 
-        public async Task Create(T entity)
+        public async Task CreateAsync(T entity)
         {
            await _context.Set<T>().AddAsync(entity);
         }
